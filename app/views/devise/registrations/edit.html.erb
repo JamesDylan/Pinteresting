@@ -19,12 +19,12 @@
       <% end %>
 
       <div class="form form-group">
-        <%= f.label :password %> <i>(leave blank if you don't want to change it)</i>
+        <b>New </b><%= f.label :password %> <i>(leave blank if you don't want to change it)</i>
         <%= f.password_field :password, autocomplete: "off", class: "form form-control" %>
       </div>
 
       <div class="form form-group">
-        <%= f.label :password_confirmation %>
+        <b> New </b><%= f.label :password_confirmation %>
         <%= f.password_field :password_confirmation, class: "form form-control" %>
       </div>
 
