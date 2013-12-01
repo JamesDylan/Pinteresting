@@ -2,5 +2,6 @@
 
 <%= render 'form' %>
 
-<%= link_to 'Show', @pin %> |
-<%= link_to 'Back', pins_path %>
+or
+<br/><br/>
+<%= link_to 'Delete', @pin, method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-danger" %>

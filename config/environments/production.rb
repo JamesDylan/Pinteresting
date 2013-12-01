@@ -79,7 +79,7 @@ Pinteresting::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   #### NOTE #### Set this to your actual email
-  config.action_mailer.default_url_options = { :host => 'swapshop-nz.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'jamesscholz.com' }
 
   #Sets Paperclip to upload images to Amazon S3
   config.paperclip_defaults = {

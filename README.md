@@ -1,5 +1,3 @@
-# One Month Rails
+# README
 
-This is the Pinteresting sample application for [*One Month Rails*](http://onemonthrails.com)
-
-by [Mattan Griffel](http://www.mattangriffel.com)
+This app was developed using the One Month Rails guide
