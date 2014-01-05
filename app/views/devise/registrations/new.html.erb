@@ -8,6 +8,16 @@
 		  <%= devise_error_messages! %>
 
 		  <div class="form form-group">
+		    <%= f.label :name %>
+		    <%= f.text_field :name, autofocus: true, class: "form form-control" %>
+		  </div>
+
+		  <div class="form form-group">
+		    <%= f.label :username %>
+		    <%= f.text_field :username, autofocus: true, class: "form form-control" %>
+		  </div>
+
+		  <div class="form form-group">
 		  	<%= f.label :email %>
 		  	<%= f.email_field :email, autofocus: true, class: "form form-control" %>
 		  </div>
