@@ -8,8 +8,9 @@
 		</div>
 		<div class="panel panel-body">
 
-			<p><%= @pin.description %></p>
-			<p><strong>User: </strong><%= @pin.user.try(:email) %></p>
+			<p><strong><%= @pin.title %></strong></p>
+			<p><%= simple_format(@pin.description) %></p>
+			<p><strong>User: </strong><%= @pin.user.try(:username) %></p>
 
 			<%if @pin.user == current_user %>
 				<%= link_to edit_pin_path(@pin) do %>
